@@ -6,7 +6,7 @@
 	    "ERROR_ACOUSTIC": "Sorry I did not catch that... <break time='200ms'/> {}",
 		"ERROR_CONFIG": "Sorry, I am having trouble, please check your configuration, in the custom skill and try again.",
 		"ERROR_SPECIFIC_DATE": "Sorry, I can not do specific dates right now, try a duration instead, like... in 5 hours",
-		"HELP_MESSAGE": "This skill should be only reactively while triggered via home assistant.",
+		"HELP_MESSAGE": "This skill should be only be used reactively while triggered via home assistant.",
 		"OKAY": "Okay",
 		"SKILL_NAME": "home assistant custom actions",
 		"STOP_MESSAGE": "Goodbye!",
@@ -26,5 +26,19 @@
 		"SKILL_NAME": "home assistant custom actions",
 		"STOP_MESSAGE": "Machs gut!",
 		"WELCOME_MESSAGE": "Willkommen bei {}. Der input text ist: {}"
+	},
+	"it": {
+	    "ERROR_401": "Sembra che io non sia autorizzata ad accedere ad Home Assistant, per favore controlla il tuo account linking o il tuo long live access token e riprova",
+		"ERROR_404": "Sembra che io non riesca a trovare l'entità input text. Per favore, verifica di averlo aggiunto ad Home Assistant e prova di nuovo",
+		"ERROR_400": "Non riesco a comunicare con Home Assistant. Per favore, controlla i log di Amazon Cloudwatch nella developer console della skill custom.",
+	    "ERROR_ACOUSTIC": "Scusa, non ho capito... <break time='200ms'/> {}",
+		"ERROR_CONFIG": "Mi dispiace, sto avendo problemi. Per favore contralla la tua configurazione nella skill custom e prova di nuovo.",
+		"ERROR_SPECIFIC_DATE": "Mi dispiace, non posso ancora compiere azioni in una specica data. Prova invece a specificare una durata, ad esempio... tra 5 ore",
+		"HELP_MESSAGE": "Questa skill dovrebbe essere utilizzata in modo reattivo solo quando attivata da Home Assistant.",
+		"OKAY": "OK",
+		"SKILL_NAME": "home assistant custom actions",
+		"STOP_MESSAGE": "Arrivederci!",
+		"SELECTED" : "Hai selezionato {}",
+		"WELCOME_MESSAGE": "Benvenuto a {}. Il testo inserito è: {}"
 	}
 }
